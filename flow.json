@@ -1,0 +1,37 @@
+{
+	"emulators": {
+		"default": {
+			"port": 3569,
+			"serviceAccount": "emulator-account"
+		}
+	},
+	"contracts": {
+		"DivanceMaketContract": "./cadence/contracts/DivanceMarketContract.cdc"
+    },
+	"networks": {
+		"emulator": {
+			"host": "127.0.0.1:3569",
+			"chain": "flow-emulator"
+		},
+		"mainnet": {
+			"host": "access.mainnet.nodes.onflow.org:9000",
+			"chain": "flow-mainnet"
+		},
+		"testnet": {
+			"host": "access.devnet.nodes.onflow.org:9000",
+			"chain": "flow-testnet"
+		}
+	},
+	"accounts": {
+		"emulator-account": {
+			"address": "f8d6e0586b0a20c7",
+			"keys": "3f0a4c552f8e3ba639528d2407b1287e08cc903c40ea2df486d773073dee3579",
+			"chain": "flow-emulator"
+		}
+	},
+	"deployments": {
+		"emulator": {
+			 "emulator-account": ["DivanceMaketContract"]
+		}
+   }
+}
