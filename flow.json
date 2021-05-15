@@ -6,7 +6,7 @@
 		}
 	},
 	"contracts": {
-		"DivanceMaketContract": "./cadence/contracts/DivanceMarketContract.cdc"
+		"DivanceMaketContract": "./contracts/DivanceMarketContract.cdc"
     },
 	"networks": {
 		"emulator": {
