@@ -25,8 +25,11 @@
 	"accounts": {
 		"emulator-account": {
 			"address": "f8d6e0586b0a20c7",
+			"privateKey": "737daebf73dd8b61b1623f9861eef08a2150799be3eb91002ececfb05265776e",
 			"keys": "3f0a4c552f8e3ba639528d2407b1287e08cc903c40ea2df486d773073dee3579",
-			"chain": "flow-emulator"
+			"chain": "flow-emulator",
+			"sigAlgorithm": "ECDSA_P256",
+			"hashAlgorithm": "SHA3_256"
 		}
 	},
 	"deployments": {
